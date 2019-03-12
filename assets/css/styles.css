@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	background-color: black !important;
+}
+li{
+	height: 40px;
+	top: 0;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+ul li{ 
+	float: right;
+}
+ul li a{ 
+	padding: 10px 15px;
+	color: white;
+	vertical-align: middle;
+	display: block;
+}
+header{
+	border-bottom: 1px solid white;
+}
+img.logo{
+	height: 20px;
+	margin-top: 10px; 
+}
+.articleBox{
+	border: 1px solid black;
+	height: 200px;
+	background-size: cover;
+	position: relative;
+}
+.mainVideoZone{
+	height: 300px;
+}
+.articleBox h3{
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px 2px #000000;
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+}
+.row{
+	margin: 0 !important;
+}
