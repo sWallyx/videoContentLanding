@@ -33,10 +33,11 @@ img.logo{
 	border: 1px solid black;
 	height: 200px;
 	background-size: cover;
+	background-position: bottom center;
 	position: relative;
 }
 .mainVideoZone{
-	height: 300px;
+	height: 500px;
 }
 .articleBox h3{
 	font-size: 20px;
@@ -48,4 +49,38 @@ img.logo{
 }
 .row{
 	margin: 0 !important;
+}
+video, #video-container{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+#mute{
+	position: relative;
+	top: -60px;
+	left: 15px;
+	height: 40px;
+	width: 40px;
+	background: rgba(155,155,155,0.6);
+	border-radius: 3px;
+	border: none;
+	color: white;
+}
+#play-pause{
+	position: relative;
+	top: -60px;
+	left: 15px;
+	height: 40px;
+	width: 40px;
+	background: rgba(155,155,155,0.6);
+	border-radius: 3px;
+	border: none;
+	color: white;
+}
+#video2, #video3{
+	display: none;
+}
+.progressBars{
+	position: relative;
+	top: 0;
 }
